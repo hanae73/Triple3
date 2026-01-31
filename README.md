@@ -1,11 +1,8 @@
 
 
-# Javascript Discord Welcome MemeBot with GitHub Codespaces
+# Triple3: Cooking Bot
 
-<img src="https://octodex.github.com/images/Robotocat.png" alt="image of robotocat" width="200" style="border:100px solid black"/>
-
-Our team has a working idea of building a cooking bot that will store some recipies and interact with the user.
-
+<img src="https://static.vecteezy.com/system/resources/previews/025/894/560/non_2x/cute-little-chef-panda-cooking-food-flat-cartoon-style-vector.jpg" alt="image of cooking" width="200" style="border:100px solid black"/>
 
 
 # Cooking Bot Version 1.0
@@ -15,3 +12,4 @@ Our team has a working idea of building a cooking bot that will store some recip
 3. The cooking bot will display the ingrediants, the instructions, as well as a list of potential allengens.
 4. The user has the option to request an alternative recipe using the /allergen command and entering their allergen.
 5. The cooking bot will then display the alternative recipe. 
+
