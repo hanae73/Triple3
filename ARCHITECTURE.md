@@ -6,3 +6,16 @@
 This data flow diagram shows how user commands flow from Discord
 into the bot, how recipe selections made by users are processed, how user state is
 stored, and how alternative recipes for the stored allergens are generated.
+
+## Control-Flow Graphs
+The following three graphs show the possible path traversals for the execute methods for our /recipes, /pick, and /allergens commands respectively.
+
+### 1. Execute (/recipes)
+<img src = "control-flowDiagrams/recipesExecute.png">
+
+### 2. Execute (/pick)
+<img src = "control-flowDiagrams/pickExecute.png">
+
+### 3. Execute (/allergens)
+<img src = "control-flowDiagrams/allergensExecute.png">
+
