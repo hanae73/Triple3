@@ -59,7 +59,7 @@ Please choose your rating below:
           new ButtonBuilder()
             .setCustomId(`star_${i}`)
             .setLabel(label)
-            .setStyle(ButtonStyle.Primary)
+            .setStyle(ButtonStyle.Secondary)
             .setDisabled(disabled)
         );
       }
