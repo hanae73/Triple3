@@ -216,39 +216,4 @@ export default {
     ingredients: ["Flour", "Cocoa powder", "Sugar", "Milk"],
     instructions: ["Mix in mug", "Microwave 1 minute", "Let cool"]
   },
-
-  26: {
-    name: "Spinach & Cheese Toast",
-    typeOfCuisine: "Greek",
-    ingredients: ["Bread", "Spinach", "Cheese", "Oil"],
-    instructions: ["Sauté spinach", "Place on bread", "Add cheese", "Toast"]
-  },
-
-  27: {
-    name: "Yogurt Berry Bowl",
-    typeOfCuisine: "American",
-    ingredients: ["Yogurt", "Berries", "Honey (optional)"],
-    instructions: ["Add yogurt to bowl", "Top with berries", "Drizzle honey"]
-  },
-
-  28: {
-    name: "Mediterranean Chickpea Salad",
-    typeOfCuisine: "Greek",
-    ingredients: ["Canned chickpeas", "Cucumber", "Tomato", "Olive oil", "Lemon juice"],
-    instructions: ["Rinse chickpeas", "Chop vegetables", "Mix with oil and lemon"]
-  },
-
-  29: {
-    name: "Egg & Cheese Breakfast Sandwich",
-    typeOfCuisine: "American",
-    ingredients: ["Bread or English muffin", "Egg", "Cheese", "Butter"],
-    instructions: ["Cook egg", "Toast bread", "Assemble sandwich"]
-  },
-
-  30: {
-    name: "Rice and Beans Comfort Bowl",
-    typeOfCuisine: "Mexican",
-    ingredients: ["Cooked rice", "Canned beans", "Butter or oil", "Salt"],
-    instructions: ["Heat rice and beans", "Add butter or oil", "Season with salt"]
-  }
 };
