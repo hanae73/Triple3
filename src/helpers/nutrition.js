@@ -1,0 +1,35 @@
+// src/data/nutrition.js
+const nutritionData = {
+  1: { calories: 450, protein: 18, carbs: 55, fat: 18, fiber: 6 },
+  2: { calories: 400, protein: 16, carbs: 35, fat: 22, fiber: 5 },
+  3: { calories: 380, protein: 10, carbs: 55, fat: 14, fiber: 3 },
+  4: { calories: 180, protein: 4, carbs: 41, fat: 0.5, fiber: 6 },
+  5: { calories: 420, protein: 14, carbs: 55, fat: 16, fiber: 4 },
+  6: { calories: 320, protein: 9, carbs: 35, fat: 16, fiber: 5 },
+  7: { calories: 300, protein: 15, carbs: 35, fat: 8, fiber: 4 },
+  8: { calories: 350, protein: 22, carbs: 30, fat: 14, fiber: 3 },
+  9: { calories: 370, protein: 14, carbs: 34, fat: 18, fiber: 3 },
+  10:{ calories: 220, protein: 7, carbs: 20, fat: 12, fiber: 5 },
+  11:{ calories: 280, protein: 14, carbs: 18, fat: 16, fiber: 4 },
+  12:{ calories: 420, protein: 14, carbs: 45, fat: 20, fiber: 10 },
+  13:{ calories: 290, protein: 6, carbs: 30, fat: 17, fiber: 7 },
+  14:{ calories: 260, protein: 18, carbs: 5, fat: 18, fiber: 1 },
+  15:{ calories: 410, protein: 11, carbs: 52, fat: 18, fiber: 3 },
+  16:{ calories: 450, protein: 15, carbs: 60, fat: 14, fiber: 9 },
+  17:{ calories: 430, protein: 25, carbs: 35, fat: 18, fiber: 5 },
+  18:{ calories: 300, protein: 7, carbs: 35, fat: 14, fiber: 4 },
+  19:{ calories: 360, protein: 10, carbs: 45, fat: 14, fiber: 5 },
+  20:{ calories: 390, protein: 11, carbs: 50, fat: 16, fiber: 3 },
+  21:{ calories: 260, protein: 16, carbs: 40, fat: 2, fiber: 12 },
+  22:{ calories: 400, protein: 14, carbs: 55, fat: 14, fiber: 4 },
+  23:{ calories: 350, protein: 12, carbs: 45, fat: 10, fiber: 6 },
+  24:{ calories: 260, protein: 14, carbs: 12, fat: 18, fiber: 2 },
+  25:{ calories: 380, protein: 6, carbs: 55, fat: 16, fiber: 3 },
+  26:{ calories: 280, protein: 11, carbs: 28, fat: 14, fiber: 3 },
+  27:{ calories: 220, protein: 10, carbs: 30, fat: 6, fiber: 4 },
+  28:{ calories: 300, protein: 10, carbs: 35, fat: 14, fiber: 8 },
+  29:{ calories: 360, protein: 17, carbs: 30, fat: 18, fiber: 2 },
+  30:{ calories: 420, protein: 14, carbs: 60, fat: 10, fiber: 8 }
+};
+
+export default nutritionData;
