@@ -41,7 +41,7 @@ module.exports = {
       });
 
       const player = createAudioPlayer();
-      const filePath = path.join(__dirname, '..helpers/sounds/timersound.mp4');
+      const filePath = path.join(__dirname, '../helpers/sounds/timersound.mp4');
       const resource = createAudioResource(filePath);
 
       player.play(resource);
