@@ -8,6 +8,9 @@ export function getCommandInstructions() {
 • Return to full recipe list → \`/recipes\`
 • Rate a recipe → \`/rate\`
 • View recipe ratings → \`/ratings\`
+• View nutritional information → \`/nutrition:<recipe name>\`
+• Set a timer in minutes or seconds → \`/voiceTimer:<minutes> <seconds>\`
+
 
 Tip: Start by browsing cuisines or viewing the full recipe list!
 `;
