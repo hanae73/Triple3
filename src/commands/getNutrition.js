@@ -1,5 +1,6 @@
 import { SlashCommandBuilder } from "discord.js";
 import nutrition from "../helpers/nutrition.js";
+//comment check! 
 
 // Normalize user input to match nutrition keys
 function normalizeRecipeName(name) {
