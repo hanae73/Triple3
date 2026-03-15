@@ -1,4 +1,3 @@
-// commands/viewRatings.js
 import { SlashCommandBuilder } from "discord.js";
 import recipes from "../helpers/recipes.js";
 import ratingsHelper from "../helpers/ratings.js";
@@ -35,11 +34,19 @@ export default {
     const ratings = ratingsHelper.getAllRatings()[recipeId] || {};
     const totalRatings = Object.keys(ratings).length;
 
-    // Generate star visualization (⭐ filled, ☆ empty)
-    const roundedAvg = Math.round(average); // round to nearest integer for stars
+    const roundedAvg = Math.round(average);
     const stars = Array.from({ length: 5 }, (_, i) =>
       i < roundedAvg ? "⭐" : "☆"
     ).join("");
+
+    const reviewList = Object.entries(ratings)
+      .map(([userId, data]) => {
+        if (!data.review) return null;
+        return `<@${userId}>: "${data.review}"`;
+      })
+      .filter(Boolean)
+      .slice(0, 5)
+      .join("\n");
 
     await interaction.reply({
       content: `
@@ -47,6 +54,8 @@ export default {
 
 Average Rating: ${stars} (${average.toFixed(1)} / 5)  
 Based on ${totalRatings} rating${totalRatings !== 1 ? "s" : ""}.
+
+${reviewList ? `**Recent Reviews:**\n${reviewList}` : "*No reviews yet.*"}
       `,
       ephemeral: false
     });
